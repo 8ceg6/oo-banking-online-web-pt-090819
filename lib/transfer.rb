@@ -35,6 +35,7 @@ class Transfer
       receiver.deposit (amount * -1)
       @status = "reversed"
   end
+binding.pry 
 end
    
 end
